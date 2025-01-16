@@ -11,3 +11,7 @@ mv temp.conf colorsAlternate.conf
 mv hyprlockAlternate.conf temp.conf
 mv hyprlock.conf hyprlockAlternate.conf
 mv temp.conf hyprlock.conf
+
+mv hyprlandAlternate.conf temp.conf
+mv hyprland.conf hyprlandAlternate.conf
+mv temp.conf hyprland.conf
