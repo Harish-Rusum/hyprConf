@@ -1,17 +1,14 @@
 #!/usr/bin/env bash
 
-mv hyprpaperAlternate.conf temp.conf
-mv hyprpaper.conf hyprpaperAlternate.conf
-mv temp.conf hyprpaper.conf
-
-mv colors.conf temp.conf
-mv colorsAlternate.conf colors.conf
-mv temp.conf colorsAlternate.conf
-
-mv hyprlockAlternate.conf temp.conf
-mv hyprlock.conf hyprlockAlternate.conf
-mv temp.conf hyprlock.conf
-
-mv hyprlandAlternate.conf temp.conf
-mv hyprland.conf hyprlandAlternate.conf
-mv temp.conf hyprland.conf
+mv ~/.config/hypr/hyprpaperAlternate.conf ~/.config/hypr/temp.conf
+mv ~/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaperAlternate.conf
+mv ~/.config/hypr/temp.conf ~/.config/hypr/hyprpaper.conf
+mv ~/.config/hypr/colors.conf ~/.config/hypr/temp.conf
+mv ~/.config/hypr/colorsAlternate.conf ~/.config/hypr/colors.conf
+mv ~/.config/hypr/temp.conf ~/.config/hypr/colorsAlternate.conf
+mv ~/.config/hypr/hyprlockAlternate.conf ~/.config/hypr/temp.conf
+mv ~/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlockAlternate.conf
+mv ~/.config/hypr/temp.conf ~/.config/hypr/hyprlock.conf
+mv ~/.config/hypr/hyprlandAlternate.conf ~/.config/hypr/temp.conf
+mv ~/.config/hypr/hyprland.conf ~/.config/hypr/hyprlandAlternate.conf
+mv ~/.config/hypr/temp.conf ~/.config/hypr/hyprland.conf
